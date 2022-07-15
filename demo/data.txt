@@ -1,34 +1,46 @@
-# TP_ENTORNO 
-### Integrantes:
-#### Ponce,Daniel
-## ARCHIVO de configuración
-###### Debe esta ubicado en la carpeta demo y debe llamarse datos.txt
-### Clone el repo
-<pre>
-git clone [https://github.com/pepeargentoo/TUIA-Entorno-de-Programaci-n](https://github.com/pepeargentoo/TUIA-Entorno-de-Programaci-n.git)
-</pre>
+Letras
+Un pacto para vivir
+Odiándonos sol a sol, revolviendo más
+En los restos de un amor
+Con un camino recto.A la desesperación
+Desenlace en un cuento de terror
+Seis años así.
+Escapando un mismo lugar con mi fantasía
+Buscando otro cuerpo, otra voz
+Fui consumiendo infiernos.
+Para salir de vos
+Intoxicado.Loco y sin humor
+Uoh-oh-oh-oh-oh-oh-oh
+Uoh-oh.
+Uoh-oh-oh-oh-oh-oh-oh
+Oh-oh
+Si hoy te tuviera aquí
+Cuando hago esta. canción, me sentiría raro
+No tengo sueño
+Mi panza vibra
+Tuve un golpe energético
+Milagro y resurrección
+Y eso que estaba tieso y
+Bajo control.
+El poder siempre manda
+Si para tenerte aquí habría que maltratarte
+No puedo hacerlo
+Sos mi Dios
+Te veo me sonrojo y tiemblo
+Qué idiota te hace el amor
+Y hoy quiero darle rienda
+A esta superstición
+Un pacto para vivir
+33 44
+Un pacto para vivir (Un pacto para vivir)
+(Uoh-oh-oh-oh-oh-oh-oh) Un pacto para vivir
+testaplicacionessmtp@gmail.com
 
-### Deploy Local
-<pre>
-cd TP_ENTORNOS
-bash main.bash
-</pre>
-### Deploy DOCKER
-<pre>
-sudo docker build -t tp_entornos .
-sudo docker run -it --rm --name entornos_docker tp_entornos
-</pre>
-### checked sintaxis
-si estas en ubuntu o debian
-<pre>
-sudo  apt install shellcheck
-</pre>
-Tests:
-<pre>
-cd TP_ENTORNOS
-shellcheck src/*
-shellcheck main.sh
-</pre>
-### checked shell online
-si no queres intalarlo podes hacer los checks en esta web
-[shellcheck] https://www.shellcheck.net/
+Un pacto para vivir (Un pacto para vivir)
+22,5
+Un pacto para vivir
+Un pacto para vivir (Un pacto para vivir)
+Un pacto para vivir
+Para vivir
+aeiou
+PACTO
