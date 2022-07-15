@@ -1,11 +1,8 @@
-# TUIA-Entorno-de-Programaci-n
-TUIA - Entorno de Programación
-# TP_ENTORNO
-este repo va a estar el codigo del tp 
+# TP_ENTORNO 
 ### Integrantes:
 #### Ponce,Daniel
 ## ARCHIVO de configuración
-###### Debe esta ubicado en la carpeta demo y debe llamarse demo/datos.txt
+###### Debe esta ubicado en la carpeta demo y debe llamarse datos.txt
 ### Clone el repo
 <pre>
 git clone [https://github.com/pepeargentoo/TUIA-Entorno-de-Programaci-n](https://github.com/pepeargentoo/TUIA-Entorno-de-Programaci-n.git)
@@ -13,7 +10,7 @@ git clone [https://github.com/pepeargentoo/TUIA-Entorno-de-Programaci-n](https:/
 
 ### Deploy Local
 <pre>
-cd TUIA-Entorno-de-Programaci-n
+cd TP_ENTORNOS
 bash main.bash
 </pre>
 ### Deploy DOCKER
@@ -24,13 +21,14 @@ sudo docker run -it --rm --name entornos_docker tp_entornos
 ### checked sintaxis
 si estas en ubuntu o debian
 <pre>
-sudo apt install shellcheck
+sudo  apt install shellcheck
 </pre>
 Tests:
 <pre>
-cd TUIA-Entorno-de-Programaci-n
+cd TP_ENTORNOS
 shellcheck src/*
 shellcheck main.sh
 </pre>
 ### checked shell online
-online:[shellcheck] https://www.shellcheck.net/
+si no queres intalarlo podes hacer los checks en esta web
+[shellcheck] https://www.shellcheck.net/
