@@ -25,8 +25,11 @@ do
         echo "Selecione una opcion"
         echo "============================================================================"
         read -r OP
-        if [[ "$OP" -ge 1  &&  "$OP" -le 15 ]]; then
-            break
+        NUMERO="^-?[0-9]+([.][0-9]+)?$"
+        if [[ $OP =~ $NUMERO ]]; then
+            if [[ "$OP" -ge 1  &&  "$OP" -le 15 ]]; then
+                break
+            fi
         fi
     done
 

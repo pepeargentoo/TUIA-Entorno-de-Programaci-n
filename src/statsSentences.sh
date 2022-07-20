@@ -7,22 +7,20 @@ MENOR=1000
 PROM=0
 CANT=0
 MAYOR=0
-while read -r P;
-  do  
-  if [ ${#P} -gt 0 ];then
-    TMP=${#P}
-    if [ "$TMP" -gt "$MAYOR" ];then
-        MAYOR=$TMP
-    fi
 
-    if [ "$TMP" -lt $MENOR ];then
-      MENOR=$TMP
-    fi
-    PROM=$((PROM+${#P}))
-    CANT=$((CANT+1))
-  fi
-  done < ./demo/data.txt
+readarray -d . -t PALA <<<"$(cat ./demo/data.txt)"  
 
+for((n=0;n<${#PALA[*]};n++))
+do
+    if [ ${#PALA[n]} -lt $MENOR ];then
+            MENOR=${#PALA[n]}
+        fi
+        if [ ${#PALA[n]} -gt $MAYOR ];then
+            MAYOR=${#PALA[n]}
+        fi
+        CANT=$((CANT+1))
+        PROM=$((PROM+${#PALA[n]}))
+done
   echo "oración más corta:" "$MENOR"
   echo "oración mas larga: " "$MAYOR"
   echo "oración promedio: " $((PROM/CANT))
